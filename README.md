@@ -28,9 +28,10 @@ Alexandre MIGNOT / Julie NEIGE
 
 La visée des bot a été modifiée, afin d’introduire des notions de flous. Nous prenons maintenant en compte les variables suivantes dans la visée des bot : la distance de la cible, la vitesse de déplacement de la cible, le temps que la cible est visible. En combinant ces variables et en gardant en tête l'esprit d’un shooter, on peut déterminer la visée pour chacune des règles. Par exemple, quand notre cible est à courte distance, qu’elle est lente et qu’elle est toujours visible, alors on obtient une très bonne précision pour ce tir.
 
-Les fichiers modifier sont :
+Les fichiers modifiés sont :
 Raven_WeaponSystem.cpp
 Raven_WeaponSystem.h
+
 -----------------------------------
 3 - C
 -----------------------------------
@@ -81,13 +82,9 @@ Alexandre MIGNOT / Julie NEIGE
 
 Ajout du but, Goal_Do_a_360 le but est d'ajouter au bot la possibilité de faire un 360 sur lui-même. Malheureusement ce but n’est jamais choisi par le jeu, il n’est donc jamais exécuté.
 
-Les fichiers modifier sont :
+Les fichiers modifiés sont :
 Goal_Do_a_360.cpp
 Goal_Do_a_360.h
 Raven_Goal_Types.cpp
 Raven_Goal_Types.h
------------------------------------
-3 - F
------------------------------------
 
-/!\ PAS FAIT (╯°□°）╯︵ ┻━┻  PARDON  /!\
